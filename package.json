@@ -1,1 +1,35 @@
-{"name":"bambounou.com","version":"1.0.0","private":true,"description":"bambounou.com","author":"tawfik741","keywords":["gatsby"],"scripts":{"develop":"gatsby develop","start":"gatsby develop","build":"gatsby build","serve":"gatsby serve","clean":"gatsby clean"},"dependencies":{"babel-plugin-styled-components":"^1.12.0","gatsby":"^2.32.8","gatsby-plugin-styled-components":"^3.10.0","react":"^16.13.1","react-dom":"^16.13.1","styled-components":"^5.2.1"}}
+{
+    "name": "bambounou.com",
+    "version": "1.0.0",
+    "private": true,
+    "description": "bambounou.com",
+    "author": "tawfik741",
+    "keywords": ["gatsby"],
+    "homepage":".", 
+    "scripts": {
+        "develop": "gatsby develop",
+        "start": "gatsby develop",
+        "build": "gatsby build",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.34",
+        "@fortawesome/free-brands-svg-icons": "^5.15.2",
+        "@fortawesome/free-solid-svg-icons": "^5.15.2",
+        "@fortawesome/react-fontawesome": "^0.1.14",
+        "@loadable/component": "^5.14.1",
+        "@material-ui/core": "^4.11.3",
+        "@material-ui/styles": "^4.11.3",
+        "babel-plugin-styled-components": "^1.12.0",
+        "gatsby": "^2.32.8",
+        "gatsby-plugin-fontawesome-css": "^1.0.0",
+        "gatsby-plugin-material-ui": "^2.1.10",
+        "gatsby-plugin-styled-components": "^3.10.0",
+        "p5": "^1.2.0",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-p5-wrapper": "^2.3.0",
+        "styled-components": "^5.2.1"
+    }
+}
