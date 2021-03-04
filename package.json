@@ -4,8 +4,10 @@
     "private": true,
     "description": "bambounou.com",
     "author": "tawfik741",
-    "keywords": ["gatsby"],
-    "homepage":".", 
+    "keywords": [
+        "gatsby"
+    ],
+    "homepage": ".",
     "scripts": {
         "develop": "gatsby develop",
         "start": "gatsby develop",

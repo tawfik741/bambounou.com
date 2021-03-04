@@ -44,7 +44,7 @@ export default function sketch(p5) {
 
     // ~~~~~~ Draw ~~~~~~
     p5.draw = () => {
-        p5.background(10, 20, 20);
+        p5.background(12, 12, 12);
         t += .0008;
         
         p5.textSize(40);
@@ -63,14 +63,19 @@ export default function sketch(p5) {
                       //p5.translate(x + w / 2, y + w / 2) ;
                       p5.translate(x+w/2,y-800+w/2) ;
                       p5.rotate  (d + Math.PI / 4)    ;
-                      p5.stroke(216,255,212,80);
+                      //p5.stroke(216,255,212,80);
+                      p5.stroke(50,50,80,100);
+                      
                       p5.line(-600, 100, 600, 100) ;
                       
                       p5.colorMode("HSB");
                       p5.strokeWeight(0);
                       p5.pop(i % 100 || p5.scale(20) + 
                       p5.text("", Math.cos(i) * 12 - 7, Math.sin(i - t) * 1));
-                      p5.fill(216,255,212,170);
+                      //p5.fill(216,255,212,170);
+                      //p5.fill(216,1,1,170);
+                      p5.fill(21,1,1,170);
+                      
                   }  
                   
               

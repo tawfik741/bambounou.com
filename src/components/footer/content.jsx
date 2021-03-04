@@ -41,7 +41,7 @@ export const Footer = () => {
 }
 
 const StyledIcon = styled(FontAwesomeIcon)`
-    color: #FFF;
+    color: #707080;
     margin: 13px 40px;
     
     @media (max-width: 800px) {
